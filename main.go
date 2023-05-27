@@ -42,7 +42,6 @@ func deleteMovie(res http.ResponseWriter, req *http.Request) {
 		}
 	}
 	json.NewEncoder(res).Encode(movies)
-	json.NewEncoder(res).Encode(movies)
 }
 
 func getMovie(res http.ResponseWriter, req *http.Request) {
